@@ -496,8 +496,8 @@ end
 -- ============================================================
 -- Tabs
 -- ============================================================
-local statsTab = window:AddTab("Stats 📊")
-local spyTab = window:AddTab("Spy Stats 👁️")
+local statsTab = window:AddTab("Calculation Stats 📊")
+local spyTab = window:AddTab("Calculation Spy 👁️")
 
 if _G.LocalTracker then _G.LocalTracker = nil end
 _G.LocalTracker = {
